@@ -12,7 +12,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Iterator;
-
+/*
+*1.根据表格中的时间数据，每五分钟采集一次数据，筛选出没有按照要求采集数据时间节点
+*2.筛选出COD数据保持六小时不变的时间段
+*/
 public class Main
 {
     public static void main(String[] args) throws IOException,ParseException

@@ -12,6 +12,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Iterator;
 
+/*
+*根据statistics表格中对应时间段的要求，读取origin表格中对应时间段的数据并计算平均值
+*/
 public class Main
 {
     public static void main(String[] args) throws IOException,ParseException
